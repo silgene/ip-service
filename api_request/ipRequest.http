@@ -1,0 +1,23 @@
+### 统计时间范围内的活跃用户数
+GET {{ip_host}}/api/mau?
+    startDate=2025-04-08&
+    endDate=2025-04-09
+
+### 统计某天的活跃用户数
+GET{{ip_host}}/api/dau?
+    date=2025-04-08
+
+### 计算七日留存率
+GET {{ip_host}}/api/seven-day-retention?
+    startDate=2025-04-08&
+    endDate=2025-04-09
+
+### 统计时间范围内的页面浏览量
+GET {{ip_host}}/api/page-views?
+    startDate=2025-04-08&
+    endDate=2025-04-09
+
+### 计算指定时间范围内的每个人的平均聊天次数
+GET {{ip_host}}/api/average-chat?
+    startDate=2025-04-08&
+    endDate=2025-04-09
